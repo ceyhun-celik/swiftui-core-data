@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftui_core_dataApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(coreDataManager: CoreDataManager())
         }
     }
 }
